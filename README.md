@@ -50,3 +50,6 @@ To see if traces are being sent you can enable zpages. These are on by default b
 * Edit `/etc/otel/collector/agent_config.yaml`
 * Change the zpages endpoint to `endpoint: 0.0.0.0:55679`
 * Restart the collector with `sudo systemctl restart splunk-otel-collector.service`
+
+## View in Splunk Observability
+![Splunk Observability View](img/Splunk_O11y_1.png)
