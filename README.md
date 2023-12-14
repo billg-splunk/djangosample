@@ -37,8 +37,10 @@ From the same system you can use localhost
 curl http://localhost:8000/members/
 ```
 
-### Connecting from multipass host (for example)
-We set the authorized hosts to a wildcard(*) so you can also do this from the multipass host if you wish to.
+### Connecting from another host
+We set the authorized hosts to a wildcard(*) so you can also connect from other hosts.
+
+If you used [multipass](https://multipass.run/) you can get the IP address this way:
 ```
 multipass info <host>
 # Use the IP address, for example
